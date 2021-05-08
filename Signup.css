@@ -11,7 +11,7 @@ html{
     margin: 0;   
     background-color: #468b57;   
    }   
-   #login{   
+   #Signup{   
     position: absolute;   
     top: 50%;   
     left:50%;   
@@ -19,7 +19,7 @@ html{
     width: 300px;   
     height: 300px;   
    }   
-   #login h1{   
+   #Signup h1{   
     color: #fff;   
     text-shadow:0 0 10px;   
     letter-spacing: 1px;   
@@ -28,8 +28,8 @@ html{
    h1{   
     font-size: 2em;   
     margin: 0.67em 0;   
-   }   
-   #login p{   
+   } 
+   #Signup p{   
     color: #fff;      
     letter-spacing: 1px;   
     text-align: center;   
@@ -37,7 +37,7 @@ html{
    p{   
     font-size: 0.5em;   
     margin: 0.67em 0;   
-   } 
+   }  
    input{   
     width: 278px;   
     height: 18px;   
