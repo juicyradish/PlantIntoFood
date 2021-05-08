@@ -93,34 +93,6 @@ h1 {
     height: 100%;
 }
 
-.navbar_btn_signup {
-    height: 80px;
-}
-
-.button_signup {
-	color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-}
-
-.navbar_btn_signin {
-    height: 80px;
-}
-
-.button_signin {
-	color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -149,22 +121,39 @@ li a:hover {
     transform: translate(5%, 20%);
 }
 
-.navbar_btn {
-    padding-bottom: 2rem;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 80px;
-    margin: 0;
-}
-
 .navbar_toggle .bar {
     display: block;
     cursor: pointer;
+}
+
+.navbar_btn_signup {
+    height: 80px;
+	float: right; 
+}
+
+.button_signup {
+	color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar_btn_signin {
+    height: 80px;
+	float: right; 
+}
+
+.button_signin {
+	color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
 }
 
 #mobile-menu.is-active . bar:nth-child(2) {
