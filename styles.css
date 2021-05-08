@@ -46,8 +46,16 @@ h1 {
     font-size: 2rem;
 }
 
-.fa-gem {
+.navbar_toggle .var {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in0out;
+    background: white;
+}
 
+.fa-gem {
+    margin-right: 0.5rem
 }
 
 .navbar_menu {
@@ -55,6 +63,20 @@ h1 {
     align-items: center;
     list-style: none;
     text-align: center;
+}
+
+.navbar_menu.active {
+    background: black;
+    top: 100%;
+    opacity: 1;
+    transition:  all 0.5s ease;
+    z-index: 99;
+    height: 50vh;
+    font-size: 1.6rem;
+}
+
+#navbar_logo {
+    padding-left: 25px;
 }
 
 .navbar_item {
@@ -119,3 +141,38 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+#mobile-menu {
+    positionL absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+}
+
+.navbar_btn {
+    padding-bottom: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: 0;
+}
+
+.navbar_toggle .bar {
+    display: block;
+    cursor: pointer;
+}
+
+#mobile-menu.is-active . bar:nth-child(2) {
+    opacity: 0;
+}
+
+#mobile-menu.is-active . bar:nth-child(1) {
+    transform: translateY(8px) rorate(45deg);
+}
+
+
