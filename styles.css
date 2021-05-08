@@ -126,27 +126,12 @@ li a:hover {
     cursor: pointer;
 }
 
-.navbar_btn_signup {
+.navbar_btn_logout {
     height: 80px;
 	float: right; 
 }
 
-.button_signup {
-	color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-}
-
-.navbar_btn_signin {
-    height: 80px;
-	float: right; 
-}
-
-.button_signin {
+.button_logout {
 	color: black;
     display: flex;
     align-items: center;
@@ -163,5 +148,4 @@ li a:hover {
 #mobile-menu.is-active . bar:nth-child(1) {
     transform: translateY(8px) rorate(45deg);
 }
-
 
