@@ -126,27 +126,12 @@ li a:hover {
     cursor: pointer;
 }
 
-.navbar_btn_signup {
+.navbar_btn_logout {
     height: 80px;
 	float: right; 
 }
 
-.button_signup {
-	color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-}
-
-.navbar_btn_signin {
-    height: 80px;
-	float: right; 
-}
-
-.button_signin {
+.button_logout {
 	color: black;
     display: flex;
     align-items: center;
@@ -164,4 +149,25 @@ li a:hover {
     transform: translateY(8px) rorate(45deg);
 }
 
+.upload_pic {
+    height: 200px;
+    width: 200px;
+}
 
+#file {
+    display: none;
+}
+
+#uploadBtn {
+    text-align: center;
+    align-items: center;
+    margin:
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    color: black;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+}
