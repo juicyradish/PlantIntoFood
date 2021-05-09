@@ -1,15 +1,25 @@
+
+body{
+    background-image: url("pic3.png");
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 h2 {
+    margin-top: 10%;
     font: Georgia;
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: 80%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 30px;
+    font-size: 35px;
+    color: rgb(21, 10, 63);
   }
 
 .collapsible {
-    background-color: #777;
+    background-color: #555;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -29,5 +39,5 @@ h2 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #dbe6f0;
   }
