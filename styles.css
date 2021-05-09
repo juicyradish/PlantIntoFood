@@ -155,7 +155,8 @@ li a:hover {
 }
 
 #file {
-    display: none;
+    transform: translate(333%, 900%);
+    font-size: 0.8rem
 }
 
 #uploadBtn {
