@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="about.css" />
+</head>
+<body>
+
+<h2>Us and Our Project</h2>
+
+<button class="collapsible">Our Inspiration</button>
+<div class="content">
+  <p><br>
+    We are a group of passionate undergraduate students who want to do our best to help people in our society. 
+     We draws our inspiration from an app called "Ant Forest", in which people can earn points though various methods,
+    whenever they take a step to reduce their emissions, and the points can be used to plant trees.</p>
+    <br>
+</div>
+
+<button class="collapsible">About Our Project</button>
+<div class="content">
+  <p><br>
+    Our project is aiming for helping homeless people in our society, as well as promoting a healthier lifestyle.
+     There are various ways you can earn "supports points". For the details, please go to the "Points-System" section. 
+     You can use the points to redeem items, such as food, daily supplies, etc, and we will donate those food to people in need!
+     After you've donated your food, you will receive corresponding "achievement points", and you can use those points to change for small gifts!
+     <br>
+     Also, you will be able to see the plant photos you've uploaded, and you can make your unique photo collections for your cute baby plants!
+     <br>
+    </p>
+</div>
+
+<button class="collapsible">Points-System</button>
+<div class="content">
+  <p><br>
+    <b>You can earn "support-points" from </b>
+      <ol>
+          <li>growing your plants and uploading the photos to our websites</li>
+          <li>Volunteering, and submit your proof for the work you've done (a written proof from your supervisor)</li>
+          <li>Write about your fun experience through planting and volunteering</li>
+      </ol>
+      <br>
+      <ul>
+          <li>You can submit up to 3 photos per day, and you will receive 2 points for submitting the photos each time</li>
+          <li>You can get 3 points for each hour of volunteering</li>
+          <li>You can write up to one post per day, and for each post you wrote and shared, you will get 2 points</li>
+        </ul>
+        <br>
+    </p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
